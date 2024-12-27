@@ -60,7 +60,6 @@ class SmartComputerPlayer(Player):
         
         if player == max_player :
             best = {'position' : None, 'score' : -math.inf}
-
         else : 
             best = {'position' : None, 'score' : math.inf}
         
